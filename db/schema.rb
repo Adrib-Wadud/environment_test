@@ -17,6 +17,9 @@ ActiveRecord::Schema.define(version: 2021_09_03_202105) do
 
   create_table "books", force: :cascade do |t|
     t.string "title"
+    t.string "author"
+    t.decimal "price"
+    t.date "publish_date"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
