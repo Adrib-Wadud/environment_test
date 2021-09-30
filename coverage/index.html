@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html xmlns='http://www.w3.org/1999/xhtml'>
   <head>
-    <title>Code coverage for Csce431</title>
+    <title>Code coverage for Test app</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <script src='./assets/0.12.3/application.js' type='text/javascript'></script>
     <link href='./assets/0.12.3/application.css' media='screen, projection, print' rel='stylesheet' type='text/css' />
-    <link rel="shortcut icon" type="image/png" href="./assets/0.12.3/favicon_green.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/0.12.3/favicon_yellow.png" />
     <link rel="icon" type="image/png" href="./assets/0.12.3/favicon.png" />
   </head>
 
@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-09-20T00:33:24+00:00">2021-09-20T00:33:24+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-09-30T20:19:00+00:00">2021-09-30T20:19:00+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -22,15 +22,15 @@
   <h2>
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
-      <span class="green">
-  97.47%
+      <span class="yellow">
+  88.81%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
-       <span class="green">
-         1.04
+       <span class="red">
+         0.93
        </span>
     </span> hits/line
     )
@@ -39,15 +39,15 @@
   <a name="AllFiles"></a>
 
   <div>
-    <b>21</b> files in total.
+    <b>24</b> files in total.
   </div>
 
   <div class="t-line-summary">
-    <b>79</b> relevant lines,
-    <span class="green"><b>77</b> lines covered</span> and
-    <span class="red"><b>2</b> lines missed. </span>
-    (<span class="green">
-  97.47%
+    <b>134</b> relevant lines,
+    <span class="green"><b>119</b> lines covered</span> and
+    <span class="red"><b>15</b> lines missed. </span>
+    (<span class="yellow">
+  88.81%
 </span>
 )
   </div>
@@ -71,7 +71,7 @@
       <tbody>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#2555e4c677643a1c9166671287cc12533f275640" class="src_link" title="app/helpers/application_helper.rb">app/helpers/application_helper.rb</a></td>
+            <td class="strong t-file__name"><a href="#33c68df01ce5a3a929f7eb6beea0e429cd3a9cdf" class="src_link" title="app/controllers/application_controller.rb">app/controllers/application_controller.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">2</td>
             <td class="cell--number">1</td>
@@ -82,7 +82,18 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#d5e75776bf9a7577de728cc2429703f5eb998012" class="src_link" title="app/helpers/books_helper.rb">app/helpers/books_helper.rb</a></td>
+            <td class="strong t-file__name"><a href="#daae43b433556c196476af35b466245a23f0a8c4" class="src_link" title="app/controllers/books_controller.rb">app/controllers/books_controller.rb</a></td>
+            <td class="red strong cell--number t-file__coverage">62.86 %</td>
+            <td class="cell--number">73</td>
+            <td class="cell--number">35</td>
+            <td class="cell--number">22</td>
+            <td class="cell--number">13</td>
+            <td class="cell--number">0.66</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#de39810253e144ad9c36fca695c31e16d51e4149" class="src_link" title="app/helpers/application_helper.rb">app/helpers/application_helper.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">2</td>
             <td class="cell--number">1</td>
@@ -93,7 +104,18 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#1799e215996794d1b99e560a15df62b0ab4ae12f" class="src_link" title="app/models/application_record.rb">app/models/application_record.rb</a></td>
+            <td class="strong t-file__name"><a href="#e7cb5b4c1c8f3e46e77d5b1c5a52c7ce4619b8d2" class="src_link" title="app/helpers/books_helper.rb">app/helpers/books_helper.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">2</td>
+            <td class="cell--number">1</td>
+            <td class="cell--number">1</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#ea6569114357d2f907c5f4807735e8641ea60433" class="src_link" title="app/models/application_record.rb">app/models/application_record.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">3</td>
             <td class="cell--number">2</td>
@@ -104,7 +126,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#6998178798c1f0bd76b2422954e6c733e5b7fb7b" class="src_link" title="app/models/book.rb">app/models/book.rb</a></td>
+            <td class="strong t-file__name"><a href="#0728546877171f8274d912723cbb2a702d016c64" class="src_link" title="app/models/book.rb">app/models/book.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">6</td>
             <td class="cell--number">5</td>
@@ -115,7 +137,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#bbf924ad713b1296e919dda43509fbd36c923d09" class="src_link" title="config/application.rb">config/application.rb</a></td>
+            <td class="strong t-file__name"><a href="#7e89a65b55f0366fac00f0dc9a2dfe140bdbd5e7" class="src_link" title="config/application.rb">config/application.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">22</td>
             <td class="cell--number">6</td>
@@ -126,7 +148,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#67e8f9759cbb11fd7976d74e0b5f33f406f93d80" class="src_link" title="config/boot.rb">config/boot.rb</a></td>
+            <td class="strong t-file__name"><a href="#eca80ed0aa533f88591b561a468f9fd33d292fbb" class="src_link" title="config/boot.rb">config/boot.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">4</td>
             <td class="cell--number">3</td>
@@ -137,7 +159,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#51df9f5f0a72a3b7db3bd817fff7db3c748c1b32" class="src_link" title="config/environment.rb">config/environment.rb</a></td>
+            <td class="strong t-file__name"><a href="#e93a616695e53b56e8e8e2f2f36236e449c5ae4b" class="src_link" title="config/environment.rb">config/environment.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">5</td>
             <td class="cell--number">2</td>
@@ -148,7 +170,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#9d397b3af22294dff3636e273f097cf4f75544d2" class="src_link" title="config/environments/test.rb">config/environments/test.rb</a></td>
+            <td class="strong t-file__name"><a href="#94881b968ab15e01686c08a1636638f59ffbfa80" class="src_link" title="config/environments/test.rb">config/environments/test.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">60</td>
             <td class="cell--number">18</td>
@@ -159,7 +181,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#5ca2f294dcea9a1170582f7a17627b3a6d89657e" class="src_link" title="config/initializers/application_controller_renderer.rb">config/initializers/application_controller_renderer.rb</a></td>
+            <td class="strong t-file__name"><a href="#e39ccf530584a4206efc22e215b2007a6525f077" class="src_link" title="config/initializers/application_controller_renderer.rb">config/initializers/application_controller_renderer.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">8</td>
             <td class="cell--number">0</td>
@@ -170,7 +192,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#de4d1872917d9fdc6cdfdb597d4f69f464b5bd25" class="src_link" title="config/initializers/assets.rb">config/initializers/assets.rb</a></td>
+            <td class="strong t-file__name"><a href="#8b55648b3d79499edcc8d802cefe4011f74ef2ff" class="src_link" title="config/initializers/assets.rb">config/initializers/assets.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">14</td>
             <td class="cell--number">2</td>
@@ -181,7 +203,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#47f41ff31bc57ae8d57ec398e85cb40001c57f24" class="src_link" title="config/initializers/backtrace_silencers.rb">config/initializers/backtrace_silencers.rb</a></td>
+            <td class="strong t-file__name"><a href="#1c551b6dce074b053979349ca07e1bdcd0b7180b" class="src_link" title="config/initializers/backtrace_silencers.rb">config/initializers/backtrace_silencers.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">8</td>
             <td class="cell--number">1</td>
@@ -192,7 +214,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#dda5bd07b5a9cc814eeeeba89855bbac550b9321" class="src_link" title="config/initializers/content_security_policy.rb">config/initializers/content_security_policy.rb</a></td>
+            <td class="strong t-file__name"><a href="#c3f16a17ea67fd64986fb3099f628894e2024c86" class="src_link" title="config/initializers/content_security_policy.rb">config/initializers/content_security_policy.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">30</td>
             <td class="cell--number">0</td>
@@ -203,7 +225,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#9f1217b2c85d3d217ee244131174cc83a6a2441e" class="src_link" title="config/initializers/cookies_serializer.rb">config/initializers/cookies_serializer.rb</a></td>
+            <td class="strong t-file__name"><a href="#770ded828824a1661dafa3f0dfe33546d2b09acb" class="src_link" title="config/initializers/cookies_serializer.rb">config/initializers/cookies_serializer.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">5</td>
             <td class="cell--number">1</td>
@@ -214,7 +236,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#f327dec037612b759ff6fb2a15330c24aa1989e2" class="src_link" title="config/initializers/filter_parameter_logging.rb">config/initializers/filter_parameter_logging.rb</a></td>
+            <td class="strong t-file__name"><a href="#516e4146e2da8e9b6cb6b133a1b551443131cf1e" class="src_link" title="config/initializers/filter_parameter_logging.rb">config/initializers/filter_parameter_logging.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">6</td>
             <td class="cell--number">1</td>
@@ -225,7 +247,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#ce7ccff758572a7d5a6243237d58bdb3e794bac5" class="src_link" title="config/initializers/inflections.rb">config/initializers/inflections.rb</a></td>
+            <td class="strong t-file__name"><a href="#ebb85b708a4138c269984f25225323040a0f1ee3" class="src_link" title="config/initializers/inflections.rb">config/initializers/inflections.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">16</td>
             <td class="cell--number">0</td>
@@ -236,7 +258,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#a8256901f48a8ec4664118e1519d487d2ebb3be6" class="src_link" title="config/initializers/mime_types.rb">config/initializers/mime_types.rb</a></td>
+            <td class="strong t-file__name"><a href="#6f6f19368874b8f455aa793fd33d16aea51e9f54" class="src_link" title="config/initializers/mime_types.rb">config/initializers/mime_types.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">4</td>
             <td class="cell--number">0</td>
@@ -247,7 +269,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#3552e5498b3e8f7962a6f52eae1f05298c63524a" class="src_link" title="config/initializers/permissions_policy.rb">config/initializers/permissions_policy.rb</a></td>
+            <td class="strong t-file__name"><a href="#294bb1908e939cc322238bda96ac1f89e4513a95" class="src_link" title="config/initializers/permissions_policy.rb">config/initializers/permissions_policy.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">11</td>
             <td class="cell--number">0</td>
@@ -258,7 +280,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#436f07578324b3e542ca1af459c8f23ed06cad45" class="src_link" title="config/initializers/wrap_parameters.rb">config/initializers/wrap_parameters.rb</a></td>
+            <td class="strong t-file__name"><a href="#e71c4bab501b1cb7432bbb064eeff325c72695f8" class="src_link" title="config/initializers/wrap_parameters.rb">config/initializers/wrap_parameters.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">14</td>
             <td class="cell--number">2</td>
@@ -269,18 +291,29 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#c542a8dc74d2a78778016741d4a7df09eb0a3c43" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
+            <td class="strong t-file__name"><a href="#494a25c8ac1ac5f1e69c9da9586e9a49a23cf125" class="src_link" title="config/routes.rb">config/routes.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">5</td>
-            <td class="cell--number">3</td>
-            <td class="cell--number">3</td>
+            <td class="cell--number">11</td>
+            <td class="cell--number">6</td>
+            <td class="cell--number">6</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#0c2abc8d599b863e0b8054bceacf90d8b9ff7f31" class="src_link" title="spec/rails_helper.rb">spec/rails_helper.rb</a></td>
+            <td class="strong t-file__name"><a href="#3289b8186b2bb9f95429ed3025b45d95a8e09362" class="src_link" title="spec/feature/integration_spec.rb">spec/feature/integration_spec.rb</a></td>
+            <td class="green strong cell--number t-file__coverage">100.00 %</td>
+            <td class="cell--number">21</td>
+            <td class="cell--number">16</td>
+            <td class="cell--number">16</td>
+            <td class="cell--number">0</td>
+            <td class="cell--number">1.00</td>
+            
+          </tr>
+        
+          <tr class="t-file">
+            <td class="strong t-file__name"><a href="#3400b03a5f3a2e3c22c6b3cc8dd01268724d9c68" class="src_link" title="spec/rails_helper.rb">spec/rails_helper.rb</a></td>
             <td class="yellow strong cell--number t-file__coverage">84.62 %</td>
             <td class="cell--number">64</td>
             <td class="cell--number">13</td>
@@ -291,7 +324,7 @@
           </tr>
         
           <tr class="t-file">
-            <td class="strong t-file__name"><a href="#2d3d02109a277b0b2b0c1e426dea62b31fec82bd" class="src_link" title="spec/unit/unit_spec.rb">spec/unit/unit_spec.rb</a></td>
+            <td class="strong t-file__name"><a href="#f6b1ab6d94a127d8d5906891cab840697888303d" class="src_link" title="spec/unit/unit_spec.rb">spec/unit/unit_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
             <td class="cell--number">32</td>
             <td class="cell--number">18</td>
@@ -318,7 +351,894 @@
 
       <div class="source_files">
       
-        <div class="source_table" id="2555e4c677643a1c9166671287cc12533f275640">
+        <div class="source_table" id="33c68df01ce5a3a929f7eb6beea0e429cd3a9cdf">
+  <div class="header">
+    <h3>app/controllers/application_controller.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>1</b> relevant lines.
+      <span class="green"><b>1</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class ApplicationController &lt; ActionController::Base</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="2">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="daae43b433556c196476af35b466245a23f0a8c4">
+  <div class="header">
+    <h3>app/controllers/books_controller.rb</h3>
+    <h4>
+      <span class="red">
+  62.86%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>35</b> relevant lines.
+      <span class="green"><b>22</b> lines covered</span> and
+      <span class="red"><b>13</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="1">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">class BooksController &lt; ApplicationController</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  before_action :set_book, only: %i[ show edit update destroy ]</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="4">
+            
+            
+
+            
+
+            <code class="ruby">  # GET /books or /books.json</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def index</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    @books = Book.all</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="7">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">  # GET /books/1 or /books/1.json</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def show</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="13">
+            
+            
+
+            
+
+            <code class="ruby">  # GET /books/new</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="14">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def new</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="15">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    @book = Book.new</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="16">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="18">
+            
+            
+
+            
+
+            <code class="ruby">  # GET /books/1/edit</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="19">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def edit</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="21">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="22">
+            
+            
+
+            
+
+            <code class="ruby">  # POST /books or /books.json</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="23">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def create</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="24">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    @book = Book.new(book_params)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="25">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="26">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    respond_to do |format|</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="27">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      if @book.save</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="28">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">        format.html { redirect_to @book, notice: &quot;Book was successfully created.&quot; }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="29">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">        format.json { render :show, status: :created, location: @book }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="30">
+            
+            
+
+            
+
+            <code class="ruby">      else</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="31">
+            
+            
+
+            
+
+            <code class="ruby">        format.html { render :new, status: :unprocessable_entity }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="32">
+            
+            
+
+            
+
+            <code class="ruby">        format.json { render json: @book.errors, status: :unprocessable_entity }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="33">
+            
+            
+
+            
+
+            <code class="ruby">      end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="34">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="35">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="36">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="37">
+            
+            
+
+            
+
+            <code class="ruby">  # PATCH/PUT /books/1 or /books/1.json</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="38">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def update</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="39">
+            
+            
+
+            
+
+            <code class="ruby">    respond_to do |format|</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="40">
+            
+            
+
+            
+
+            <code class="ruby">      if @book.update(book_params)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="41">
+            
+            
+
+            
+
+            <code class="ruby">        format.html { redirect_to @book, notice: &quot;Book was successfully updated.&quot; }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="42">
+            
+            
+
+            
+
+            <code class="ruby">        format.json { render :show, status: :ok, location: @book }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="43">
+            
+            
+
+            
+
+            <code class="ruby">      else</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="44">
+            
+            
+
+            
+
+            <code class="ruby">        format.html { render :edit, status: :unprocessable_entity }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="45">
+            
+            
+
+            
+
+            <code class="ruby">        format.json { render json: @book.errors, status: :unprocessable_entity }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="46">
+            
+            
+
+            
+
+            <code class="ruby">      end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="47">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="48">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="49">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="50">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def delete</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="51">
+            
+            
+
+            
+
+            <code class="ruby">    @book = Book.find(params[:id])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="52">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="53">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="54">
+            
+            
+
+            
+
+            <code class="ruby">  # DELETE /books/1 or /books/1.json</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="55">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def destroy</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="56">
+            
+            
+
+            
+
+            <code class="ruby">    @book.destroy</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="57">
+            
+            
+
+            
+
+            <code class="ruby">    respond_to do |format|</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="58">
+            
+            
+
+            
+
+            <code class="ruby">      format.html { redirect_to books_url, notice: &quot;Book was successfully destroyed.&quot; }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="59">
+            
+            
+
+            
+
+            <code class="ruby">      format.json { head :no_content }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="60">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="61">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="62">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="63">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  private</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="64">
+            
+            
+
+            
+
+            <code class="ruby">    # Use callbacks to share common setup or constraints between actions.</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="65">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    def set_book</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="66">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      @book = Book.find(params[:id])</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="67">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="68">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="69">
+            
+            
+
+            
+
+            <code class="ruby">    # Only allow a list of trusted parameters through.</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="70">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    def book_params</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="71">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      params.require(:book).permit(:title, :author, :price, :publish_date)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="72">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="73">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="de39810253e144ad9c36fca695c31e16d51e4149">
   <div class="header">
     <h3>app/helpers/application_helper.rb</h3>
     <h4>
@@ -371,7 +1291,7 @@
 </div>
 
       
-        <div class="source_table" id="d5e75776bf9a7577de728cc2429703f5eb998012">
+        <div class="source_table" id="e7cb5b4c1c8f3e46e77d5b1c5a52c7ce4619b8d2">
   <div class="header">
     <h3>app/helpers/books_helper.rb</h3>
     <h4>
@@ -424,7 +1344,7 @@
 </div>
 
       
-        <div class="source_table" id="1799e215996794d1b99e560a15df62b0ab4ae12f">
+        <div class="source_table" id="ea6569114357d2f907c5f4807735e8641ea60433">
   <div class="header">
     <h3>app/models/application_record.rb</h3>
     <h4>
@@ -488,7 +1408,7 @@
 </div>
 
       
-        <div class="source_table" id="6998178798c1f0bd76b2422954e6c733e5b7fb7b">
+        <div class="source_table" id="0728546877171f8274d912723cbb2a702d016c64">
   <div class="header">
     <h3>app/models/book.rb</h3>
     <h4>
@@ -585,7 +1505,7 @@
 </div>
 
       
-        <div class="source_table" id="bbf924ad713b1296e919dda43509fbd36c923d09">
+        <div class="source_table" id="7e89a65b55f0366fac00f0dc9a2dfe140bdbd5e7">
   <div class="header">
     <h3>config/application.rb</h3>
     <h4>
@@ -858,7 +1778,7 @@
 </div>
 
       
-        <div class="source_table" id="67e8f9759cbb11fd7976d74e0b5f33f406f93d80">
+        <div class="source_table" id="eca80ed0aa533f88591b561a468f9fd33d292fbb">
   <div class="header">
     <h3>config/boot.rb</h3>
     <h4>
@@ -933,7 +1853,7 @@
 </div>
 
       
-        <div class="source_table" id="51df9f5f0a72a3b7db3bd817fff7db3c748c1b32">
+        <div class="source_table" id="e93a616695e53b56e8e8e2f2f36236e449c5ae4b">
   <div class="header">
     <h3>config/environment.rb</h3>
     <h4>
@@ -1019,7 +1939,7 @@
 </div>
 
       
-        <div class="source_table" id="9d397b3af22294dff3636e273f097cf4f75544d2">
+        <div class="source_table" id="94881b968ab15e01686c08a1636638f59ffbfa80">
   <div class="header">
     <h3>config/environments/test.rb</h3>
     <h4>
@@ -1710,7 +2630,7 @@
 </div>
 
       
-        <div class="source_table" id="5ca2f294dcea9a1170582f7a17627b3a6d89657e">
+        <div class="source_table" id="e39ccf530584a4206efc22e215b2007a6525f077">
   <div class="header">
     <h3>config/initializers/application_controller_renderer.rb</h3>
     <h4>
@@ -1829,7 +2749,7 @@
 </div>
 
       
-        <div class="source_table" id="de4d1872917d9fdc6cdfdb597d4f69f464b5bd25">
+        <div class="source_table" id="8b55648b3d79499edcc8d802cefe4011f74ef2ff">
   <div class="header">
     <h3>config/initializers/assets.rb</h3>
     <h4>
@@ -2014,7 +2934,7 @@
 </div>
 
       
-        <div class="source_table" id="47f41ff31bc57ae8d57ec398e85cb40001c57f24">
+        <div class="source_table" id="1c551b6dce074b053979349ca07e1bdcd0b7180b">
   <div class="header">
     <h3>config/initializers/backtrace_silencers.rb</h3>
     <h4>
@@ -2133,7 +3053,7 @@
 </div>
 
       
-        <div class="source_table" id="dda5bd07b5a9cc814eeeeba89855bbac550b9321">
+        <div class="source_table" id="c3f16a17ea67fd64986fb3099f628894e2024c86">
   <div class="header">
     <h3>config/initializers/content_security_policy.rb</h3>
     <h4>
@@ -2494,7 +3414,7 @@
 </div>
 
       
-        <div class="source_table" id="9f1217b2c85d3d217ee244131174cc83a6a2441e">
+        <div class="source_table" id="770ded828824a1661dafa3f0dfe33546d2b09acb">
   <div class="header">
     <h3>config/initializers/cookies_serializer.rb</h3>
     <h4>
@@ -2580,7 +3500,7 @@
 </div>
 
       
-        <div class="source_table" id="f327dec037612b759ff6fb2a15330c24aa1989e2">
+        <div class="source_table" id="516e4146e2da8e9b6cb6b133a1b551443131cf1e">
   <div class="header">
     <h3>config/initializers/filter_parameter_logging.rb</h3>
     <h4>
@@ -2677,7 +3597,7 @@
 </div>
 
       
-        <div class="source_table" id="ce7ccff758572a7d5a6243237d58bdb3e794bac5">
+        <div class="source_table" id="ebb85b708a4138c269984f25225323040a0f1ee3">
   <div class="header">
     <h3>config/initializers/inflections.rb</h3>
     <h4>
@@ -2884,7 +3804,7 @@
 </div>
 
       
-        <div class="source_table" id="a8256901f48a8ec4664118e1519d487d2ebb3be6">
+        <div class="source_table" id="6f6f19368874b8f455aa793fd33d16aea51e9f54">
   <div class="header">
     <h3>config/initializers/mime_types.rb</h3>
     <h4>
@@ -2959,7 +3879,7 @@
 </div>
 
       
-        <div class="source_table" id="3552e5498b3e8f7962a6f52eae1f05298c63524a">
+        <div class="source_table" id="294bb1908e939cc322238bda96ac1f89e4513a95">
   <div class="header">
     <h3>config/initializers/permissions_policy.rb</h3>
     <h4>
@@ -3111,7 +4031,7 @@
 </div>
 
       
-        <div class="source_table" id="436f07578324b3e542ca1af459c8f23ed06cad45">
+        <div class="source_table" id="e71c4bab501b1cb7432bbb064eeff325c72695f8">
   <div class="header">
     <h3>config/initializers/wrap_parameters.rb</h3>
     <h4>
@@ -3296,7 +4216,7 @@
 </div>
 
       
-        <div class="source_table" id="c542a8dc74d2a78778016741d4a7df09eb0a3c43">
+        <div class="source_table" id="494a25c8ac1ac5f1e69c9da9586e9a49a23cf125">
   <div class="header">
     <h3>config/routes.rb</h3>
     <h4>
@@ -3310,8 +4230,8 @@
     
 
     <div class="t-line-summary">
-      <b>3</b> relevant lines.
-      <span class="green"><b>3</b> lines covered</span> and
+      <b>6</b> relevant lines.
+      <span class="green"><b>6</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -3362,12 +4282,78 @@
 
             
 
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  resources :books do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    member do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      get :delete</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="9">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="10">
+            
+            
+
+            
+
             <code class="ruby">  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="5">
+          <li class="never" data-hits="" data-linenumber="11">
             
             
 
@@ -3382,7 +4368,269 @@
 </div>
 
       
-        <div class="source_table" id="0c2abc8d599b863e0b8054bceacf90d8b9ff7f31">
+        <div class="source_table" id="3289b8186b2bb9f95429ed3025b45d95a8e09362">
+  <div class="header">
+    <h3>spec/feature/integration_spec.rb</h3>
+    <h4>
+      <span class="green">
+  100.0%
+</span>
+
+      lines covered
+    </h4>
+
+    
+
+    <div class="t-line-summary">
+      <b>16</b> relevant lines.
+      <span class="green"><b>16</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
+    </div>
+
+    
+
+  </div>
+
+  <pre>
+    <ol>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="1">
+            
+            
+
+            
+
+            <code class="ruby"># location: spec/feature/integration_spec.rb</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="2">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">require &#39;rails_helper&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="3">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="4">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">RSpec.describe &#39;Creating a book&#39;, type: :feature do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="5">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  scenario &#39;valid inputs&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="6">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    visit new_book_path</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    fill_in &#39;Title&#39;, with: &#39;harry potter&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="8">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    fill_in &#39;Author&#39;, with: &#39;JK Rowling&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    fill_in &#39;Price&#39;, with: 100</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="10">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    select &#39;2021&#39;, :from =&gt; &#39;book_publish_date_1i&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="11">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    select &#39;April&#39;, :from =&gt; &#39;book_publish_date_2i&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="12">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    select &#39;23&#39;, :from =&gt; &#39;book_publish_date_3i&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="13">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    click_on &#39;Create Book&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="14">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    visit books_path</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="15">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&#39;harry potter&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&#39;JK Rowling&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="17">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&quot;100.0&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="18">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&quot;2021-04-23&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="21">
+            
+            
+
+            
+
+            <code class="ruby">end</code>
+          </li>
+        </div>
+      
+    </ol>
+  </pre>
+</div>
+
+      
+        <div class="source_table" id="3400b03a5f3a2e3c22c6b3cc8dd01268724d9c68">
   <div class="header">
     <h3>spec/rails_helper.rb</h3>
     <h4>
@@ -4117,7 +5365,7 @@
 </div>
 
       
-        <div class="source_table" id="2d3d02109a277b0b2b0c1e426dea62b31fec82bd">
+        <div class="source_table" id="f6b1ab6d94a127d8d5906891cab840697888303d">
   <div class="header">
     <h3>spec/unit/unit_spec.rb</h3>
     <h4>
